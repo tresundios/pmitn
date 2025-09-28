@@ -186,7 +186,7 @@ get_header();
         <div class="row">
             <div class="col col-lg-5 col-md-5">
                 <div class="img-holder">
-                    <img src="assets/images/pmitn.png" alt>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pmitn.png" alt>
                 </div>
             </div>
             <div class="col col-lg-6 col-lg-offset-1 col-md-7">
