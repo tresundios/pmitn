@@ -8,13 +8,23 @@ get_header();
             <div class="swiper-slide">
                 <div class="slide-inner slide-bg-image" data-background="<?php echo get_template_directory_uri(); ?>/assets/images/slider/slide-2.jpg">
                     <div class="container">
-                        <div data-swiper-parallax="300" class="slide-title">
-                            <h2>I was in <span>prison</span> and you visited me</h2>
+                        <div class="content-wrapper" style="
+                            background: rgba(0, 0, 0, 0.4);
+                            backdrop-filter: blur(8px);
+                            -webkit-backdrop-filter: blur(8px);
+                            padding: 30px;
+                            border-radius: 10px;
+                            max-width: 70%;
+                            margin: 0 auto;
+                        ">
+                            <div data-swiper-parallax="300" class="slide-title">
+                                <h2 style="color: #fff;">I was in <span>prison</span> and you visited me</h2>
+                            </div>
+                            <div data-swiper-parallax="400" class="slide-text">
+                                <p style="color: #fff;">"For I was hungry and you gave me food, I was thirsty and you gave me drink, a stranger and you welcomed me, naked and you clothed me, ill and you cared for me, in prison and you visited me." - Matthew 25:35-36</p>
+                            </div>
+                            <div class="clearfix"></div>
                         </div>
-                        <div data-swiper-parallax="400" class="slide-text">
-                            <p>"For I was hungry and you gave me food, I was thirsty and you gave me drink, a stranger and you welcomed me, naked and you clothed me, ill and you cared for me, in prison and you visited me." - Matthew 25:35-36</p>
-                        </div>
-                        <div class="clearfix"></div>
                         <!-- <div data-swiper-parallax="500" class="slide-btns">
                             <a href="#" class="theme-btn-s2">Donate Now <i class="fi flaticon-heart-1"></i></a> 
                         </div> -->
@@ -28,13 +38,23 @@ get_header();
             <div class="swiper-slide">
                 <div class="slide-inner slide-bg-image" data-background="<?php echo get_template_directory_uri(); ?>/assets/images/slider/slide-1.jpg">
                     <div class="container">
-                        <div data-swiper-parallax="300" class="slide-title">
-                            <h2>The <span>Spirit</span> of the Lord is upon me</h2>
+                        <div class="content-wrapper" style="
+                            background: rgba(0, 0, 0, 0.4);
+                            backdrop-filter: blur(8px);
+                            -webkit-backdrop-filter: blur(8px);
+                            padding: 30px;
+                            border-radius: 10px;
+                            max-width: 70%;
+                            margin: 0 auto;
+                        ">
+                            <div data-swiper-parallax="300" class="slide-title">
+                                <h2 style="color: #fff;">The <span>Spirit</span> of the Lord is upon me</h2>
+                            </div>
+                            <div data-swiper-parallax="400" class="slide-text">
+                                <p style="color: #fff;">"The Spirit of the Lord is upon me, because he has anointed me to bring glad tidings to the poor. He has sent me to proclaim liberty to captives and recovery of sight to the blind, to let the oppressed go free." - Luke 4:18</p>
+                            </div>
+                            <div class="clearfix"></div>
                         </div>
-                        <div data-swiper-parallax="400" class="slide-text">
-                            <p>"The Spirit of the Lord is upon me, because he has anointed me to bring glad tidings to the poor. He has sent me to proclaim liberty to captives and recovery of sight to the blind, to let the oppressed go free." - Luke 4:18</p>
-                        </div>
-                        <div class="clearfix"></div>
                         <!-- <div data-swiper-parallax="500" class="slide-btns">
                             <a href="#" class="theme-btn-s2">Donate Now <i class="fi flaticon-heart-1"></i></a> 
                         </div> -->
@@ -48,13 +68,23 @@ get_header();
             <div class="swiper-slide">
                 <div class="slide-inner slide-bg-image" data-background="<?php echo get_template_directory_uri(); ?>/assets/images/slider/slide-3.jpg">
                     <div class="container">
-                        <div data-swiper-parallax="300" class="slide-title">
-                            <h2><span>Remember</span> those in prison</h2>
+                        <div class="content-wrapper" style="
+                            background: rgba(0, 0, 0, 0.4);
+                            backdrop-filter: blur(8px);
+                            -webkit-backdrop-filter: blur(8px);
+                            padding: 30px;
+                            border-radius: 10px;
+                            max-width: 70%;
+                            margin: 0 auto;
+                        ">
+                            <div data-swiper-parallax="300" class="slide-title">
+                                <h2 style="color: #fff;"><span>Remember</span> those in prison</h2>
+                            </div>
+                            <div data-swiper-parallax="400" class="slide-text">
+                                <p style="color: #fff;">"Remember the prisoners as if sharing their imprisonment, and the ill-treated as of yourselves, for you also are in the body." - Hebrews 13:3</p>
+                            </div>
+                            <div class="clearfix"></div>
                         </div>
-                        <div data-swiper-parallax="400" class="slide-text">
-                            <p>"Remember the prisoners as if sharing their imprisonment, and the ill-treated as of yourselves, for you also are in the body." - Hebrews 13:3</p>
-                        </div>
-                        <div class="clearfix"></div>
                         <!-- <div data-swiper-parallax="500" class="slide-btns">
                             <a href="#" class="theme-btn-s2">Donate Now <i class="fi flaticon-heart-1"></i></a> 
                         </div> -->
@@ -84,7 +114,7 @@ get_header();
         </div>
 
         <div class="scroll">
-            <a href="#about" id="scroll"><i class="fi flaticon-down-arrow-2"></i></a>
+            <a href="#principle" id="scroll"><i class="fi flaticon-down-arrow-2"></i></a>
         </div>
 
     </div>
@@ -93,7 +123,7 @@ get_header();
 
 
 <!-- start contact-section -->
-<section class="principle-section  ">
+<section id="principle" class="principle-section  ">
     <div class="container">
         <div class="row">
             <div>

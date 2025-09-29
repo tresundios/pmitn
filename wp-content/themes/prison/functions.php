@@ -25,8 +25,8 @@ function prison_setup() {
 }
 
 function add_prison_favicons() {
-    echo '<link rel="icon" type="image/x-icon" href="' . get_template_directory_uri() . '/assets/gvr-icon.ico" />' . "\n";
-    echo '<link rel="shortcut icon" type="image/x-icon" href="' . get_template_directory_uri() . '/assets/gvr-icon.png" />' . "\n";
+    echo '<link rel="icon" type="image/x-icon" href="' . get_template_directory_uri() . '/assets/icons/pmitn.ico" />' . "\n";
+    echo '<link rel="shortcut icon" type="image/x-icon" href="' . get_template_directory_uri() . '/assets/images/pmitn.png" />' . "\n";
 }
 
 add_action('wp_head', 'add_prison_favicons');
