@@ -16,23 +16,23 @@ get_template_part('template-parts/banner','hero');
             <div class="col col-xs-12">
                 <div class="principle-info-grids">
                     <div class="grid">
-                        <i class="fa fa-star fa-5x"></i>
+                        <i class="fas fa-star fa-5x"></i>
                         <h4>Prayer is the source of our ministry</h4>
                         <p>We believe in the transformative power of prayer and spiritual connection.</p>
                     </div>
                     <div class="grid">
-                        <i class="fa fa-heart fa-5x"></i>
+                        <i class="fas fa-heart fa-5x"></i>
                         <h4>Inconvenience is our convenience</h4>
                         <p>We embrace challenges and discomfort to serve those who need us most.</p>
                     </div>
                     <div class="grid">
-                        <i class="fa fa-hand-paper-o fa-5x"></i>
+                        <i class="fas fa-hand-holding-heart fa-5x"></i>
                         <h4>Begging is our lifestyle</h4>
                         
                         <p>We humbly seek resources to support to continue our mission of service.</p>
                     </div>
                     <div class="grid">
-                        <i class="fa fa-money fa-5x"></i>
+                        <i class="fas fa-hand-holding-dollar fa-5x"></i>
                         <h4>Bank balance is the providence of God</h4>
                         <p>We trust in divine providence for our financial needs and sustainability.</p>
                     </div>
