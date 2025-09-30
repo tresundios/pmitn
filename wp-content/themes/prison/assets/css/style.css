@@ -2607,7 +2607,7 @@ img {
 
 .hero-style-1 .slide-title h2 {
   font-size: 75px;
-  font-size: 4.6875rem;
+  font-size: 3em;
   color: #fff;
   margin: 0 0 0.33em;
   line-height: 1em;
@@ -2616,7 +2616,7 @@ img {
 @media (max-width: 991px) {
   .hero-style-1 .slide-title h2 {
     font-size: 55px;
-    font-size: 3.4375rem;
+    font-size: 2.4375rem;
   }
 }
 

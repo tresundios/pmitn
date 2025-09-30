@@ -147,22 +147,3 @@
         </header>
         <!-- end of header -->
 
-        <!-- start page-title -->
-        <section class="page-title">
-            <div class="page-title-container">
-                <div class="page-title-wrapper">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col col-xs-12">
-                                <h2>Our Story - Prison Ministry India Tamilnadu</h2>
-                                <ol class="breadcrumb">
-                                    <li>Transforming lives through compassion, care, and rehabilitation</li>
-                                </ol>
-                                <div class="title-border"></div>
-                            </div>
-                        </div> <!-- end row -->
-                    </div> <!-- end container -->
-                </div>
-            </div>
-        </section>
-        <!-- end page-title -->

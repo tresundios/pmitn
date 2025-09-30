@@ -16,9 +16,9 @@
                                 <p>Prison Ministry India - Tamilnadu is a non-profit organization dedicated to bringing hope, rehabilitation, and spiritual guidance to incarcerated individuals across Tamilnadu. Through our outreach programs, counseling services, and community support initiatives, we strive to transform lives and foster positive change within the prison system.</p>
                                 <div class="social-icons">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/Prisonministryindia/"><i class="ti-facebook"></i></a></li>
+                                        <li><a href="https://www.facebook.com/Prisonministryindia/" target="_blank"><i class="ti-facebook"></i></a></li>
                                         <!-- <li><a href="#"><i class="ti-twitter-alt"></i></a></li> -->
-                                        <li><a href="https://www.linkedin.com/company/prison-ministry-india/?originalSubdomain=in"><i class="ti-linkedin"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/company/prison-ministry-india/" target="_blank"><i class="ti-linkedin"></i></a></li>
                                         <!-- <li><a href="#"><i class="ti-pinterest"></i></a></li> -->
                                     </ul>
                                 </div>
