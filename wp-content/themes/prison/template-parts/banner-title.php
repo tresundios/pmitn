@@ -50,10 +50,27 @@ $description = get_bloginfo('description', 'display');
             .title-border {
                 margin: 20px auto 0;
             }
+            .title-content-wrapper {
+                display: flex;
+                flex-direction: column;
+            }
             @media (max-width: 767px) {
                 .page-title-content {
                     max-width: 95%;
                     padding: 25px 20px;
+                }
+                .title-content-wrapper h2 {
+                    word-wrap: break-word;
+                    overflow-wrap: break-word;
+                    word-break: break-word;
+                    -webkit-hyphens: auto;
+                    -ms-hyphens: auto;
+                    hyphens: auto;
+                    width: 100%;
+                    display: inline-block;
+                }
+                .title-content-wrapper .breadcrumb {
+                    margin-top: 10px;
                 }
             }
         </style>
@@ -64,22 +81,24 @@ $description = get_bloginfo('description', 'display');
                         <div class="row">
                             <div class="col col-xs-12">
                                 <div class="page-title-content">
-                                    <?php
-                                    if (is_page()) {
-                                        the_title('<h2>', '</h2>');
-                                    } else {
-                                        echo '<h2>' . esc_html($blog_info) . '</h2>';
-                                    }                                
-                                    ?>
-                                    <?php
-                                    $subtitle = get_post_meta(get_the_ID(), 'page_subtitle', true);
-                                    if (empty($subtitle)) {
-                                        $subtitle = get_bloginfo('description');
-                                    }
-                                    if ($subtitle) {
-                                        echo '<ol class="breadcrumb"><li>' . esc_html($subtitle) . '</li></ol>';
-                                    }
-                                    ?>
+                                    <div class="title-content-wrapper">
+                                        <?php
+                                        if (is_page()) {
+                                            the_title('<h2>', '</h2>');
+                                        } else {
+                                            echo '<h2>' .$blog_info . '</h2>';
+                                        }                                
+                                        ?>
+                                        <?php
+                                        $subtitle = get_post_meta(get_the_ID(), 'page_subtitle', true);
+                                        if (empty($subtitle)) {
+                                            $subtitle = get_bloginfo('description');
+                                        }
+                                        if ($subtitle) {
+                                            echo '<ol class="breadcrumb"><li>' . esc_html($subtitle) . '</li></ol>';
+                                        }
+                                        ?>
+                                    </div>
                                     <div class="title-border"></div>
                                 </div>
                             </div>
