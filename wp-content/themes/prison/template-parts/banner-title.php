@@ -86,13 +86,13 @@ $description = get_bloginfo('description', 'display');
                                         if (is_page()) {
                                             the_title('<h2>', '</h2>');
                                         } else {
-                                            echo '<h2>' .$blog_info . '</h2>';
+                                            echo '<h2 style="font-size: 3rem;">' .$blog_info . '</h2>';
                                         }                                
                                         ?>
                                         <?php
                                         $subtitle = get_post_meta(get_the_ID(), 'page_subtitle', true);
                                         if (empty($subtitle)) {
-                                            $subtitle = get_bloginfo('description');
+                                            $subtitle = '';//get_bloginfo('description');
                                         }
                                         if ($subtitle) {
                                             echo '<ol class="breadcrumb"><li>' . esc_html($subtitle) . '</li></ol>';
