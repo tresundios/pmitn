@@ -374,19 +374,19 @@ get_template_part('template-parts/banner', 'title');
                                                 </div>
                                                 <div class="col-sm-6 col-md-3">
                                                     <div class="stat-item">
-                                                        <div class="stat-number">1000+</div>
+                                                        <div class="stat-number">2000+</div>
                                                         <div class="stat-label">Lives Impacted</div>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6 col-md-3">
                                                     <div class="stat-item">
-                                                        <div class="stat-number">30+</div>
+                                                        <div class="stat-number">130+</div>
                                                         <div class="stat-label">Prisons Reached</div>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6 col-md-3">
                                                     <div class="stat-item">
-                                                        <div class="stat-number">50+</div>
+                                                        <div class="stat-number">1000+</div>
                                                         <div class="stat-label">Volunteers</div>
                                                     </div>
                                                 </div>

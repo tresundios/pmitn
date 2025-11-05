@@ -12,7 +12,7 @@
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <div class="slide-inner slide-bg-image" data-background="<?php echo get_template_directory_uri(); ?>/assets/images/slider/slide-2.jpg">
+                <div class="slide-inner slide-bg-image" data-background="<?php echo get_template_directory_uri(); ?>/assets/images/revamp/slide-1.jpg">
                     <div class="container">
                         <div class="content-wrapper" style="
                             background: rgba(0, 0, 0, 0.4);
@@ -42,7 +42,7 @@
             </div> <!-- end swiper-slide -->
 
             <div class="swiper-slide">
-                <div class="slide-inner slide-bg-image" data-background="<?php echo get_template_directory_uri(); ?>/assets/images/slider/slide-1.jpg">
+                <div class="slide-inner slide-bg-image" data-background="<?php echo get_template_directory_uri(); ?>/assets/images/revamp/slide-2.jpg">
                     <div class="container">
                         <div class="content-wrapper" style="
                             background: rgba(0, 0, 0, 0.4);
@@ -72,7 +72,7 @@
             </div> <!-- end swiper-slide -->
 
             <div class="swiper-slide">
-                <div class="slide-inner slide-bg-image" data-background="<?php echo get_template_directory_uri(); ?>/assets/images/slider/slide-3.jpg">
+                <div class="slide-inner slide-bg-image" data-background="<?php echo get_template_directory_uri(); ?>/assets/images/revamp/slide-5.jpg">
                     <div class="container">
                         <div class="content-wrapper" style="
                             background: rgba(0, 0, 0, 0.4);

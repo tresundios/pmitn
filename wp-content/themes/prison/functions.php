@@ -400,4 +400,36 @@ function get_activity_date($post_id = null) {
     return $date ? date_i18n(get_option('date_format'), strtotime($date)) : '';
 }
 
+function prison_enqueue_scripts() {
+    // Enqueue Font Awesome
+    wp_enqueue_style(
+        'font-awesome',
+        'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css',
+        array(),
+        '6.4.0'
+    );
+    
+    // Enqueue jQuery (should be included by default in WordPress)
+    wp_enqueue_script('jquery');
+    
+    // Enqueue Bootstrap JavaScript
+    wp_enqueue_script(
+        'bootstrap-js',
+        'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js',
+        array('jquery'),
+        '3.4.1',
+        true
+    );
+    
+    // Enqueue custom JavaScript
+    wp_enqueue_script(
+        'prison-custom',
+        get_template_directory_uri() . '/assets/js/custom.js',
+        array('jquery', 'bootstrap-js'),
+        '1.0.0',
+        true
+    );
+}
+add_action('wp_enqueue_scripts', 'prison_enqueue_scripts');
+
 ?>
