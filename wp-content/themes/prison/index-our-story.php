@@ -329,7 +329,7 @@ get_template_part('template-parts/banner', 'title');
                                                     <div class="timeline-year">1997</div>
                                                     <div class="timeline-content">
                                                         <h4>National Convention Participation</h4>
-                                                        <p>Participated in the Third National Convention of Prison Ministry India in Trichy</p>
+                                                        <p>Participated in the Third National Convention of Prison Ministry India in Trissur</p>
                                                     </div>
                                                 </div>
                                                 <div class="timeline-item">
