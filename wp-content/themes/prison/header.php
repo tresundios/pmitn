@@ -20,7 +20,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-
+    <?php echo do_shortcode('[t4b-ticker]'); ?>
     <!-- start page-wrapper -->
     <div class="page-wrapper">
 
